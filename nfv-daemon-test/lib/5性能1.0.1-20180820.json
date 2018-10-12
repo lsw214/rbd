@@ -1,0 +1,76 @@
+{
+  "CreateAt": "2016-06-01T14:15:00Z",
+  "Cluster": [
+    {
+      "Id": "ed8c343c-0666-40b0-a831-1575a0089bbf",
+      "Name": "BJ-DX-1",
+      "Capacity": 460000,
+      "UsedCapacity": 210000,
+      "Utilization": 0.48,
+      "Pools":{
+          "PoolCount": 1,
+          "Members": [
+            {
+              "ID": "1",
+              "Name": "pool1",
+              "Capacity": 10000,
+              "UsedCapacity": 5000,
+              "Utilization": 0.5,
+              "CacheCapacity": 10,
+              "CacheUsedCap": 5.6,
+              "CacheUtilization": 56,
+              "CacheHitRate": 70,
+              "ReadIOPS": 110,
+              "WriteIOPS": 90,
+              "ReadBandwidth": 50,
+              "WriteBandwidthKB": 15.26,
+              "Await": 2,
+              "Volumes": {
+                "VolumeCount": 1,
+                "Members": [
+                  {
+                    "Name": "vol_12",
+                    "Id": "12",
+                    "Capacity": 500,
+                    "UsedCapacity": 200,
+					"Utilization":40
+                    "IOPS": 50,
+                    "ReadIOPS": 30,
+                    "WriteIOPS": 20,
+                    "Bandwidth": 5,
+                    "ReadBandwidth": 3.2,
+                    "WriteBandwidth": 1.8,
+                    "Await": 2,
+                    "BlockSize": 4
+                  }
+                ]
+              },
+              "Nodes": {
+                "NodeCount": 1,
+                "Members": [
+                  {
+                    "Id":"1",
+					"SerialNumber": "23-24324",
+                    "Name": "node1",
+                    "CPUUtilization": 80,
+                    "Memory": 128,
+                    "UsedMemory": 64,
+                    "MemoryUtilization": 50,
+                    "EthernetPorts": [
+                      {
+                        "Name": "port1",
+                        "Businfo": "",
+                        "SendRate": 122,
+                        "ReceiveRate": 23,
+						"Rate":145
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }  
+    }
+  ]
+}

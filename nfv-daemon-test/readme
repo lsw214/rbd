@@ -1,0 +1,18 @@
+此自动化主要进行NFV Daemon自动化测试。
+一、自动化脚本目录说明：
+    1、data：存放下载数据
+    2、function：自动化测试脚本目录
+    3、http_server：模拟HTTP服务器脚本目录
+    4、lib：库文件存放目录
+    5、report：测试报告存放目录
+
+二、自动化脚本使用说明：
+    1、安装python运行环境
+       pip install -r requirement.txt
+    2、配置config.conf文件
+
+    3、运行自动化脚本测试集
+       进入function目录
+       执行：python run_test.py
+    运行完成后，执行结果会在report中生成html报告
+
